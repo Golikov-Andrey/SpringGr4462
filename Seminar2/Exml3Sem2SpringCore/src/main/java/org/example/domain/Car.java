@@ -1,5 +1,6 @@
 package org.example.domain;
 
+import org.example.interfaces.iEngin;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
@@ -9,7 +10,7 @@ public class Car {
     private String model = "BMW";
     private String made = "X1";
 
-    @Autowired
+
     private iEngin carEngin;
 
     public Car(iEngin engin ) {

@@ -1,8 +1,8 @@
-package org.example.domain;
+package org.example.domen;
 
 import org.springframework.stereotype.Component;
 
-//@Component
+@Component
 public class Engin {
     private String typeEngin = "Бензиновый";
 

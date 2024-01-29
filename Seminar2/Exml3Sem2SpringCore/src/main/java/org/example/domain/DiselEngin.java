@@ -1,12 +1,14 @@
 package org.example.domain;
 
+import org.example.interfaces.iEngin;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
 @Component
+@Primary
 //@Lazy
-public class DiselEngin  {
+public class DiselEngin implements iEngin {
     public DiselEngin() {
         System.out.println("Создан экземпляр DiselEngin");
     }

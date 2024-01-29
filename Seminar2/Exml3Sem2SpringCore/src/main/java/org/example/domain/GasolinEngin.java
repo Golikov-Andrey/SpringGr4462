@@ -1,5 +1,6 @@
 package org.example.domain;
 
+import org.example.interfaces.iEngin;
 import org.springframework.stereotype.Component;
 
 @Component
