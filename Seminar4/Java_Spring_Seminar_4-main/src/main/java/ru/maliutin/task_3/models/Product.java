@@ -1,12 +1,12 @@
-package ru.gb.Example3Sem4.model;
+package ru.maliutin.task_3.models;
 
-import lombok.*;
-import lombok.extern.java.Log;
+import lombok.Data;
 
 @Data
 public class Product {
 
     private String name;
+
     private double price;
 
 }
